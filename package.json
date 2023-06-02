@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint --ext .js,.vue,.ts ."
+  },
+  "devDependencies": {
+    "@nuxtjs/style-resources": "^1.2.1",
+    "@types/node": "^18",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^7.0.0-beta.4",
+    "node-sass": "^8.0.0",
+    "nuxt": "^3.4.1",
+    "sass-loader": "^13.2.2"
+  }
+}
