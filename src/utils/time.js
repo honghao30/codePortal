@@ -26,27 +26,3 @@ export function getTodayDate() {
 //   let currentTime = getCurrentTime();
 //   console.log(currentTime);
 
-// 빈 값 체크
-export function isEmpty(value) {
-  let result = false
-  if (typeof value === 'number') {
-    if (value === 0) {
-      return true
-    }
-  } else if (typeof value === 'string') {
-    if (value === '' || value.length === 0) {
-      return true
-    }
-  } else if (typeof value === 'object') {
-    if (Array.isArray(value)) {
-      if (value.length === 0) {
-        return true
-      }
-    } else {
-      if (Object.keys(value).length === 0) {
-        return true
-      }
-    }
-  }
-  return result
-}
